@@ -1,0 +1,174 @@
+/* Global styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(rgb(204, 204, 230), rgb(245, 227, 227), rgb(219, 219, 192) );
+  
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Header styles */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header a {
+    color: #fff;
+  }
+  
+  /* Navigation styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+ 
+  #navbarNav {
+    display: flex;
+    justify-content: end;
+  }
+  .navbar-nav {
+    position: fixed;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #333;
+  }
+  
+  /* Hero styles */
+  #hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+  
+  #hero a {
+    font-size: 1.5em;
+  }
+  
+  /* About styles */
+  #about {
+    padding: 100px 0;
+  }
+  
+  #about h2 {
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 1.2em;
+    line-height: 1.8em;
+    margin-bottom: 30px;
+  }
+  
+  /* Skills styles */
+  #skills {
+    padding: 100px 0;
+  }
+  
+  #skills h2 {
+    margin-bottom: 20px;
+  }
+  
+  .progress {
+    height: 25px;
+  }
+  
+  .progress-bar {
+    text-align: right;
+    padding-right: 10px;
+  }
+  
+  /* Projects styles */
+  #projects {
+    padding: 100px 0;
+  }
+  
+  #projects h2 {
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    background: #f8f8f8;
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact styles */
+  #contact {
+    padding: 100px 0;
+  }
+  
+  #contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 150px;
+  }
+  
+  .btn-primary {
+    background: #333;
+    border-color: #333;
+  }
+  
+  .btn-primary:hover {
+    background: #fff;
+    color: #333;
+  }
+  .jumbotron-fluid {
+    background:linear-gradient(45deg, gray, lightblue);
+  }
